@@ -1,0 +1,13 @@
+body div:first-child p:first-child{
+    color: red;
+}
+
+body div:first-child p:last-child{ 
+	background-color: red;
+	color: white;
+}
+
+div p:only-child{
+	background-color: blue;
+}
+
